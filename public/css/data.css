@@ -1,0 +1,20 @@
+.card {
+    width: 320px;
+    height: 568px;
+    /*background-color: #fff;*/
+    border: 1px solid #ccc;
+    margin-left: 10px;
+}
+
+.accordion-heading .accordion-toggle {
+    padding: 14px 15px;
+}
+
+.accordion-heading {
+    background-color: #eee;
+    padding: 0 30px
+}
+
+.accordion-group {
+    /*border: 1px solid #ccc;*/
+}

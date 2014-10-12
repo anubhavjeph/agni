@@ -1,0 +1,121 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-family:  "Helvetica Neue","HelveticaNeue-Light", "Helvetica Neue Light", Helvetica, Arial, "Lucida Grande", sans-serif;
+    -wekit-perspective : 900px;
+    perspective : 900px;
+    overflow-x: hidden;
+
+}
+
+.wrapper_container{
+    position: absolute;
+    width: 100%;
+    height: 1400px;
+    overflow: hidden;
+}
+#fullview{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+}
+
+.card{
+    position: absolute;
+    width: 100%;
+    height: 1400px;
+    -webkit-transition-duration: .5s; /* Safari */
+    transition-duration: .5s;
+}
+
+.card .offer-img{
+    width:  230px;
+    height:  105px;
+    margin: 5px 7px 5px;
+    /*border: 1px solid #aaa;*/
+}
+
+.card a {
+    display: block;
+    margin: 0 auto;
+    width: 230px;
+    cursor: pointer;
+}
+
+.shoe {
+    margin: 10px auto;
+    width: 200px;
+    border-bottom: 1px solid;
+}
+
+.card .shoe-img{
+    width: 200px;
+    height: 98px;
+    margin: 5px 7px 5px;
+    display: block;
+    margin: 0 auto;
+}
+
+.card .shirt-img {
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+
+/*[data-index="0"]{
+    background-color: #eee;
+}
+
+[data-index="1"]{
+    background-color: #234;
+}
+
+
+[data-index="2"]{
+    background-color: #432;
+}
+
+[data-index="3"]{
+    background-color: #ddd;
+}
+
+
+[data-index="4"]{
+    background-color: #545;
+}
+
+[data-index="5"]{
+    background-color: #879;
+}
+
+[data-index="6"]{
+    background-color: #098;
+}
+*/
+.state{
+    font-size: 12px;
+    color: white;
+}
+
+#prev{
+    text-align: center;
+    padding: 5px 0px;
+    border-bottom: 1px solid white;
+}
+
+#next{
+    text-align: center;
+    padding: 5px 0px;
+    border-top: 1px solid white;
+}
+
+#present{
+    text-align: center;
+    padding: 12px 0px;
+}

@@ -1,0 +1,10 @@
+/pubilc/javascripts/staticJs.js
+/public/stylesheets/staticCSS.css
+/public/staticTemplate.dev.html
+/public/staticTemplate.html
+/public/heisenberg
+
+node_modules
+*.DS_Store
+.DS_Store
+*.zip
